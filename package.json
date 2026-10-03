@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=22.13.0"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "next dev",
@@ -60,10 +60,5 @@
     "wrangler": "4.92.0"
   },
   "type": "module",
-  "overrides": {
-    "miniflare": {
-      "sharp": "0.35.4"
-    }
-  },
   "packageManager": "pnpm@11.25.0"
 }
